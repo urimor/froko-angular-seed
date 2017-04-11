@@ -3,10 +3,12 @@
 var webpack = require('webpack');
 var path = require('path');
 var globals = require('./globals');
+var ProgressPlugin = require('webpack/lib/ProgressPlugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 exports.commonPlugins = [
+  new ProgressPlugin(),
   new webpack.ContextReplacementPlugin(
     /angular(\\|\/)core(\\|\/)@angular/,
     globals.SourceDirectory

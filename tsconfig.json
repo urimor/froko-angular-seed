@@ -8,6 +8,9 @@
     "removeComments": false,
     "sourceMap": true
   },
+  "awesomeTypescriptLoaderOptions": {
+    "silent": true
+  },
   "exclude": ["node_modules"],
   "compileOnSave": false,
   "buildOnSave": false
