@@ -38,6 +38,7 @@
     "zone.js": "0.8.5"
   },
   "devDependencies": {
+    "@angular/language-service": "^4.0.1",
     "@types/core-js": "0.9.36",
     "@types/jasmine": "2.5.47",
     "@types/node": "7.0.7",
