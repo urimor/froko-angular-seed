@@ -4,9 +4,10 @@
   "description": "Yet another seed project for Angular (v4) and webpack (v2)",
   "scripts": {
     "all": "npm run ci && npm start",
-    "ci": "npm install --silent && npm test && npm run build",
+    "ci": "npm install --silent && npm run build && npm test",
     "syncversion": "node config/version.js",
     "clean": "rimraf aot dist",
+    "reset": "npm run clean && rimraf reports node_modules",
     "compile": "ngc -p tsconfig.aot.json && rimraf trash",
     "start": "webpack-dev-server --config config/webpack.config.dev.js --port 3000 --host 0.0.0.0",
     "build": "npm run clean && npm run compile && webpack --config config/webpack.config.prod.js --profile --bail",

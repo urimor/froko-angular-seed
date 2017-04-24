@@ -21,7 +21,7 @@ Yet another seed project for Angular (v4) and webpack (v2)
 
 _Note that you have to open the browser by yourself._
 
-Instead of `npm install` you can run `npm run ci` which installs all npm packages, runs the unit tests and builds the application all in one single step.
+Instead of `npm install` you can run `npm run ci` which installs all npm packages, builds the application and runs the unit tests all in one single step.
 
 ### How to build ###
 Run `npm run build` to create a production-ready AOT version of the web application
