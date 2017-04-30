@@ -2,8 +2,8 @@
 Yet another seed project for Angular (v4) and webpack (v2)
 
 ### Technology Stack ###
-- Angular (4.0.3)
-- TypeScript (2.2.2)
+- Angular (4.1.0)
+- TypeScript (2.3.2)
 - Suport for CSS and SASS
 - webpack (2.4.1)
 - karma/jasmine/remap-istanbul
