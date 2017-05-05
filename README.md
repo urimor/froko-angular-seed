@@ -2,10 +2,10 @@
 Yet another seed project for Angular (v4) and webpack (v2)
 
 ### Technology Stack ###
-- Angular (4.1.0)
+- Angular (4.1.1)
 - TypeScript (2.3.2)
 - Suport for CSS and SASS
-- webpack (2.4.1)
+- webpack (2.5.0)
 - karma/jasmine/remap-istanbul
 - tslint
 
